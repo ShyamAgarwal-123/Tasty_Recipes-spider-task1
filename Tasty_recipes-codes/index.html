@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Recipes.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="fav.css">
+    <link rel="stylesheet" href="filter.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Header">
+        <div id="left-section">
+            <img src="./icons/download.png" alt="" class ="burger-img">
+            <h1 class="Title">Tasty Recipes</h1>
+        </div>
+        <div id="right-section">
+            <div id ="main-menu">
+                <div class="home-div">
+                    <img src="./icons/home.png" class="home-icon">
+                    <div class="tooltip">Home</div>
+                </div>
+                <div class="insta-icon">
+                    <div class="insta">
+                        <a href="https://www.instagram.com/shyam_agarwal_7?igsh=MWpybm54NXNmY2h2eQ=="><img src="./icons/insta-logo.png"  class="insta-logo"></a>
+                    </div>
+                    <div class="tooltip">Instagram</div>
+                    
+                </div>
+                <div class="saved-logo">
+                    <img src="./icons/recipes.png" alt="" class = "saved-icon">
+                    <div class="tooltip">Saved </div>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-div">
+                        <img src="./icons/filter.svg" alt="" class="filter-icon">
+                        <div class="tooltip">Filter</div>
+                    </div>
+                </div>
+            </div>
+            <div id="main">
+                <img src="./icons/Hamburger_icon.svg.png" class="hamburger-icon">
+                <div class="tooltip">Main menu</div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="content">
+        <div class="top-info">
+            <div class="banner">
+                <img src="./icons/null.png" class="banner-logo">
+            </div>
+            <div id="filter-menu">
+                <div id = "ingrediants">
+                    <p class="filter-title">Ingredients:</p>
+                    <!--ingrediants will be dynamically added-->
+                </div>
+                <div id ="cuisines">
+                    <p class="filter-title">Cuisines:</p>
+                    <!--ingrediants will be dynamically added-->
+                </div>
+                <div id="prep-times">
+                    <p class="filter-title">Preparation Time:</p>
+                    <!--ingrediants will be dynamically added-->
+                </div>
+                <div id="dietary-restrictions">
+                    <p class="filter-title"> Dietary Restrictions:</p>
+                    <!--ingrediants will be dynamically added-->
+                </div>
+                <div id="submit-div">
+                    <button id="submitBtn">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div id="recipes">
+            <!--recipes will be dynamically displayed-->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
