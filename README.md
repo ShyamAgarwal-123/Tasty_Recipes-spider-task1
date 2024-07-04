@@ -13,4 +13,4 @@ first.
 5. open the 'Recipe image' folder inside the Tasty_recipes-codes folder in this repo and download all the images inside the 'Recipe image' folder you created.
 6. after all this you can run the HTML code(index.html)
 
-#Or Download the entire repo as a Zip folder from the dropdown which you will get by clicking on the code button on the Righthand side and then run the index.html file 
+#Or Download the entire repo as a Zip folder from the dropdown which you will get by clicking on the code button on the Righthand side and then extract it  and then run the index.html file 
